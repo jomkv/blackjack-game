@@ -1,0 +1,39 @@
+body {
+    background-image: url(table.png);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-size: cover;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+.message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    height: 25px;
+    width: 150px;
+    background-color: goldenrod;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-bottom: 2px;
+    transition: background-color 0.15s;
+}
+
+button:hover {
+    background-color: rgb(189, 144, 30);
+}
+
+button:active {
+    background-color: rgb(170, 130, 28);
+}
+
